@@ -1,13 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import '../styles/styles.scss';
 
-function App() {
+const App = () => {
     return (
-        <div id="app">
+        <div id="app" className="app">
             App file
         </div>
     )
 }
 
-const root = document.getElementById("root");
-ReactDOM.render(<App/>, root);
+export default App;
