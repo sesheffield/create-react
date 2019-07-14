@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/sesheffield/create-react/issues"
   },
-  "homepage": "https://github.com/sesheffield/create-react#readme"
+  "homepage": "https://github.com/sesheffield/create-react#readme",
+  "devDependencies": {
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
 }
