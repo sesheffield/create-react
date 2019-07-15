@@ -26,7 +26,15 @@ module.exports = {
                 "css-loader", // translates CSS into CommonJS
                 "sass-loader" // compiles Sass to CSS, using Node Sass by default
             ],
-          }
+          },
         ]
     },
+    devServer: {
+        contentBase: path.join(__dirname),
+        hot: true,
+        inline: true,
+        port: 8080,
+        publicPath: '/dist/',
+        watchContentBase: true
+    }
   }
